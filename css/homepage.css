@@ -43,7 +43,7 @@ body {
     background-image: url(../img/C1-01-01-01.png);
 }
 .photo1 {
-	background-image: url(../img/b1-a.png);
+	background-image: url(../img/b1-A.png);
 	background-size: contain;
 	background-position: center 0%;
 	background-repeat: no-repeat;
@@ -56,13 +56,13 @@ body {
 	margin-right: 78px;
 }
 .photo1:hover {
-    background-image: url(../img/b1-b.png);
+    background-image: url(../img/b1-B.png);
     background-repeat: no-repeat;
     background-position: center 0%;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
 }
 .photo2 {
-	background-image: url(../img/b2-a.png);
+	background-image: url(../img/b2-A.png);
 	background-size: contain;
 	background-position: center 0%;
 	background-repeat: no-repeat;
@@ -75,13 +75,13 @@ body {
 	margin-right: 78px;
 }
 .photo2:hover {
-    background-image: url(../img/b2-b.png);
+    background-image: url(../img/b2-B.png);
     background-repeat: no-repeat;
     background-position: center 0%;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
 }
 .photo3 {
-	background-image: url(../img/b3-c-01.png);
+	background-image: url(../img/b3-C-01.png);
 	background-size: contain;
 	background-position: center 0%;
 	background-repeat: no-repeat;
