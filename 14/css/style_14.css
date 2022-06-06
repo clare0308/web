@@ -1,0 +1,262 @@
+@charset "utf-8";
+body {
+  background-color: #62C1FF;
+}
+header {
+  text-align: center;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 2px -2px 11px #000000;
+  font-family: "微軟正黑體 Light", "標楷體", "新細明體";
+  margin-top: 15px;
+}
+.star, .star a{
+	width:53px;
+	height:52;
+}
+.back {
+  background-image: url(../img/whiteboard.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  padding-top: 50px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "微軟正黑體 Light", "標楷體", "新細明體";
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #9AE000;
+}
+.nav-link {
+  background-color: #1CD5EC;
+  color: #FFFFFF;
+  -webkit-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+}
+.nav-tabs .nav-link {
+  border: 0px;
+  margin-right: 5px;
+}
+li {
+  display: block;
+  margin-top: 20px;
+}
+.photo {
+  float: right;
+}
+.img {
+  text-align: center;
+}
+.row {
+  margin-top: 20px;
+}
+.computer {
+  float: right;
+}
+.rabbit {
+  float: right;
+}
+.dog {
+  float: left;
+}
+@media (max-width: 768px) {
+  .computer {
+    height: auto;
+    position: relative;
+    font-size: 36px;
+    display: none;
+  }
+  p {
+    font-size: 15px;
+  }
+  .school {
+    width: 50px;
+    height: 50px;
+  }
+  .text {
+    line-height: 50px;
+    font-size: 16px;
+  }
+  .data {
+    margin-top: -25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .back {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+  }
+  .litext {
+    font-size: 15px;
+	 margin-top: 15px;
+  }
+  .photo {
+    margin-top: -220px;
+    margin-right: 40px;
+    width: 160px;
+    height: 200px;
+  }
+  .rabbit {
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+  }
+  .dog {
+    width: 100px;
+    height: 80px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 576px) {
+	header{
+		font-size: 26px;
+	}
+	li{
+		font-size: 12px;
+	}
+	.star{
+		width: 25px;
+		height: 25px;
+	}
+	h2{
+		font-size: 16px;
+	}
+	.litext{
+		font-size: 8px;
+		margin:0px;
+	}
+	ul{
+		padding-left: 10px;
+	}
+	.photo{
+		width: 80px;
+		height: 90px;
+		margin-top: -120px;	
+	}
+	p{
+		font-size: 10px;
+	}
+	.back{
+		padding: 5px;
+	}
+	.school{
+		width: 30px;
+		height: 30px;
+	}
+	.text{
+		font-size: 12px;
+		line-height: 35px;
+	}
+	.row{
+		margin: 0px;
+	}
+	.data{
+		margin: 0px;
+	}
+}
+@media (min-width: 768px) {
+  .computer {
+    width: 220px;
+    height: 180px;
+    margin-top: -50px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .school {
+    width: 70px;
+    height: 70px;
+  }
+  .text {
+    line-height: 70px;
+  }
+  .data {
+    margin-top: -20px;
+  }
+  .photo {
+    margin-top: -310px;
+    margin-right: 40px;
+    width: 200px;
+    height: 250px;
+  }
+  .rabbit {
+    width: 125px;
+    height: 125px;
+    margin-top: 50px;
+  }
+  .dog {
+    width: 130px;
+    height: 105px;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .computer {
+    margin-top: -20px;
+    width: 500px;
+    height: 380px;
+  }
+  .data {
+    margin-top: -20px;
+  }
+  .text {
+    line-height: 80px;
+  }
+  .school {
+    width: 80px;
+    height: 80px;
+  }
+  .photo {
+    margin-top: -310px;
+    margin-right: 40px;
+    width: 250px;
+    height: 310px;
+  }
+  .rabbit {
+    width: 180px;
+    height: 180px;
+    margin-top: 120px;
+  }
+  .dog {
+    width: 220px;
+    height: 180px;
+    margin-top: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .computer {
+    margin-top: 80px
+  }
+  .text {
+    line-height: 100px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .school {
+    width: 100px;
+    height: 100px;
+  }
+  .photo {
+    margin-top: -300px;
+    margin-right: 140px;
+  }
+  .rabbit {
+    width: 280px;
+    height: 280px;
+    margin-top: 150px;
+  }
+  .dog {
+    width: 320px;
+    height: 280px;
+    margin-top: 150px;
+  }
+}

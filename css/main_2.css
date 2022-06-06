@@ -1,0 +1,83 @@
+@charset "utf-8";
+body {
+    font-family: "微軟正黑體";
+    background-image: url(../img/white_star.png);
+    background-size: cover;
+    background-position: center 0%;
+}
+.container {
+    margin-top: 125px;
+}
+.light {
+    background-color: rgba(255, 178, 81, 1.00);
+}
+.t1 {
+    background-color: #FFFFFF;
+}
+.p1 {
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.type {
+    color: #FFFFFF;
+    font-family: "微軟正黑體";
+    font-size: 25px;
+    margin-left: 10px;
+}
+.type a {
+    color: #FFFFFF;
+    font-family: "微軟正黑體";
+    width: 120px;
+    height: 30px;
+}
+.type a:link {
+    text-decoration: none;
+}
+.type a:hover {
+    color: #3A1314;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+.data1 {
+    text-align: center;
+}
+.data2 {
+    padding-top: 50px;
+}
+.data3 {
+    padding-top: 65px;
+    padding-left: 100px;
+}
+.data4 {
+    text-align: left;
+}
+.title1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.block {
+	width: 100%;
+	height: 100vh;
+	border: 0px;
+	margin-bottom: 15px;
+}
+footer {
+    background-color: rgba(255, 178, 81, 1.00);
+    text-align: center;
+    padding: 20px;
+	margin-top: -6px;
+	height: 130px;
+	font-size: 12px;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	position: relative;
+	bottom: 0px;
+}
+.img-footer {
+	margin-top: -25px;
+}

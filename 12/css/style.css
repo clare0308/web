@@ -1,0 +1,75 @@
+@charset "utf-8";
+.container {
+    height: 1000px;
+    background-position: center center;
+    background-size: cover;
+}
+.img {
+    border-radius: 50%;
+    position: relative;
+    right: -70px;
+
+
+}
+.cat  {
+
+
+
+
+}
+
+h1 {
+    text-align: center;
+
+}
+.p1 {
+    font-size: 30px;
+    position: relative;
+    left: 92px;
+}
+.p2 {
+    font-size: 20pt;
+    text-align: left;
+    position: relative;
+    left: 118px;
+}
+
+.c {
+    text-align: center;
+    font-size: 20pt;
+}
+body {
+    background-image: url(../img/1-1PH1120331.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "微軟正黑體", "細明體-ExtB";
+    background-size: cover;
+}
+
+.p3 {
+    font-size: 20pt;
+    text-align: center;
+}
+.row .col-lg-4 {
+    border-right-style: solid;
+    border-right-color: #6E6A6A;
+}
+.row .o {
+    border-right-style: solid;
+    border-right-color: #6E6A6A;
+}
+.s  {
+    border-right-style: solid;
+    border-right-color: #6E6A6A;
+
+}
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+a {
+    color: #000000;
+}
+a:hover {
+    color: #050505;
+}

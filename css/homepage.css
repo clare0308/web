@@ -1,0 +1,266 @@
+@charset "utf-8";
+body {
+    font-family: "微軟正黑體";
+    background-image: url(../img/white_star.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+}
+.container {
+    margin-top: 45px;
+    padding: 15px;
+}
+.light {
+    background-color: rgba(255, 178, 81, 1.00);
+}
+.img1 {
+    float: right;
+}
+.data1 {
+    border: 1px solid rgba(255, 255, 255, 1.00);
+    height: 400px;
+    clear: both;
+    margin-bottom: 250px;
+    background-image: url(../img/Y2-01-01-01.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 5px 5px 5px #4D1212;
+    box-shadow: 5px 5px 5px #4D1212;
+}
+.data2 {
+    margin-top: 200px;
+    text-align: center;
+}
+.data3 {
+    border: 1px solid rgba(255, 255, 255, 1.00);
+    height: 400px;
+    clear: both;
+    margin-bottom: 250px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 5px 5px 5px #4D1212;
+    box-shadow: 5px 5px 5px #4D1212;
+    background-image: url(../img/C1-01-01-01.png);
+}
+.photo1 {
+	background-image: url(../img/b1-a.png);
+	background-size: contain;
+	background-position: center 0%;
+	background-repeat: no-repeat;
+	-webkit-transition: all 2s ease 0s;
+	-o-transition: all 2s ease 0s;
+	transition: all 2s ease 0s;
+	margin-top: -400px;
+	height: 400px;
+	margin-left: 78px;
+	margin-right: 78px;
+}
+.photo1:hover {
+    background-image: url(../img/b1-b.png);
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+}
+.photo2 {
+	background-image: url(../img/b2-a.png);
+	background-size: contain;
+	background-position: center 0%;
+	background-repeat: no-repeat;
+	-webkit-transition: all 2s ease 0s;
+	-o-transition: all 2s ease 0s;
+	transition: all 2s ease 0s;
+	margin-top: -400px;
+	height: 400px;
+	margin-left: 78px;
+	margin-right: 78px;
+}
+.photo2:hover {
+    background-image: url(../img/b2-b.png);
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+}
+.photo3 {
+	background-image: url(../img/b3-c-01.png);
+	background-size: contain;
+	background-position: center 0%;
+	background-repeat: no-repeat;
+	-webkit-transition: all 2s ease 0s;
+	-o-transition: all 2s ease 0s;
+	transition: all 2s ease 0s;
+	height: 380px;
+	margin-right: 190px;
+	margin-left: 190px;
+}
+.photo3:hover {
+    background-image: url(../img/b3-D-01.png);
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+}
+.t1 {
+    background-color: #FFFFFF;
+}
+.type {
+    color: #FFFFFF;
+    font-family: "微軟正黑體";
+    font-size: 25px;
+    margin-left: 10px;
+}
+.type a {
+    color: #FFFFFF;
+    font-family: "微軟正黑體";
+    width: 120px;
+    height: 30px;
+}
+.type a:link {
+    text-decoration: none;
+}
+.type a:hover {
+    color: #3A1314;
+}
+.p1 {
+    font-size: 26px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: "微軟正黑體";
+}
+.p2 {
+    font-family: "微軟正黑體";
+    font-size: 16px;
+}
+.img10 {
+    float: right;
+    margin-right: 20px;
+}
+.data10 {
+    background-color: rgba(2, 207, 152, 1.00);
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    clear: both;
+}
+
+@media (max-width: 480px) {
+    .img1 {
+        width: 340px;
+    }
+}
+@media (max-width: 768px) {
+    .data1 {
+        height: 300px;
+        margin-bottom: 150px;
+    }
+    .data2 {
+        margin-top: 150px;
+    }
+    .photo1 {
+        height: 370px;
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+    .photo2 {
+        margin-top: 20px;
+        height: 370px;
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+    .photo3 {
+        height: 230px;
+        margin-right: 33px;
+        margin-left: 33px;
+    }
+}
+@media (max-width: 576px) {
+    .data1 {
+        height: 200px;
+        margin-bottom: 180px;
+    }
+    .data3 {
+        height: 200px;
+        margin-bottom: 0px;
+    }
+    .photo1 {
+        height: 250px;
+        margin-top: -100px;
+        margin-right: 105px;
+        margin-left: 105px;
+    }
+    .photo2 {
+        height: 250px;
+        margin-right: 105px;
+        margin-left: 105px;
+    }
+    .photo3 {
+        height: 190px;
+        margin-left: 42px;
+        margin-right: 42px;
+    }
+}
+@media (min-width: 768px) {
+    .photo1 {
+        height: 250px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .photo2 {
+        height: 250px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .photo3 {
+        height: 305px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media (min-width: 992px) {
+    .photo3 {
+        height: 380px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .photo1 {
+        height: 305px;
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+    .photo2 {
+        height: 305px;
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+}
+@media (min-width: 1200px) {
+    .photo1 {
+        height: 400px;
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+    .photo2 {
+        height: 400px;
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+    .photo3 {
+        height: 380px;
+        margin-right: 190px;
+        margin-left: 190px;
+    }	
+}
+footer {
+	background-color: rgba(255, 178, 81, 1.00);
+	text-align: center;
+	height: 130px;
+	font-size: 12px;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	position: relative;
+	bottom: 0px;
+	clear: both;
+}
+.img-footer {
+	margin-top: -25px;
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+body {
+    font-family: "微軟正黑體";
+    background-image: url(../img/white_star.png);
+    background-size: cover;
+    background-position: center 0%;
+}
+.container {
+	margin-top: 130px;
+	padding: 15px;
+}
+.light {
+    background-color: rgba(255, 178, 81, 1.00);
+}
+.t1 {
+    background-color: #FFFFFF;
+}
+.type {
+    color: #FFFFFF;
+    font-family: "微軟正黑體";
+    font-size: 25px;
+    margin-left: 10px;
+}
+.type a {
+    color: #FFFFFF;
+    font-family: "微軟正黑體";
+    width: 120px;
+    height: 30px;
+}
+.type a:link {
+    text-decoration: none;
+}
+.type a:hover {
+    color: #3A1314;
+}
+.carousel-inner {
+    background-image: url(../img/orange-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.img1{
+	margin-bottom: 30px;
+}
+.w-100 {
+    width: 95% !important;
+}
+footer {
+    background-color: rgba(255, 178, 81, 1.00);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0px;
+	height: 130px;
+	font-size: 12px;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.title {
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+.img-footer {
+	margin-top: -25px;
+}

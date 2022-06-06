@@ -1,0 +1,64 @@
+@charset "utf-8";
+body {
+    font-family: "微軟正黑體";
+    background-image: url(../img/white_star.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+}
+.container {
+    margin-top: 115px;
+    padding: 15px;
+}
+.light {
+    background-color: rgba(255, 178, 81, 1.00);
+}
+.t1 {
+    background-color: #FFFFFF;
+}
+.type {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.type a {
+    color: #FFFFFF;
+    width: 120px;
+    height: 30px;
+}
+.type a:link {
+    text-decoration: none;
+}
+.type a:hover {
+    color: #3A1314;
+}
+.mb-0 a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.mb-0 a:hover {
+    color: #3A1314;
+    text-decoration: none;
+}
+.card-header {
+    background-color: rgba(255, 178, 81, 1.00);
+}
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+footer {
+    background-color: rgba(255, 178, 81, 1.00);
+    text-align: center;
+	height: 130px;
+	font-size: 12px;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	position: relative;
+	bottom: 0px;
+}
+.img-footer {
+	margin-top: -25px;
+}
